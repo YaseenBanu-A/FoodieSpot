@@ -55,7 +55,7 @@ const Services = () => {
     ServicesData.map(({id,img,name,description})=>{
       return (
         <div key={id}    data-aos="zoom-in"
-        data-aos-duration="300" className='max-w-[300px] group rounded-2xl bg-white dark:bg-gray-800
+        data-aos-duration="400" className='max-w-[300px] group rounded-2xl bg-white dark:bg-gray-800
          hover:bg-primary  dark:hover:bg-primary dark:text-white duration-300  shadow-xl '  >
           <div className='h-[100px] '>
              <img src={img} className='max-w-[200px] mx-auto block transform -translate-y-14 group-hover:scale-105
